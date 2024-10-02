@@ -13,8 +13,9 @@ import postgres from "@/assets/images/stack/postgree.svg"
 import firebase from "@/assets/images/stack/firebase.svg"
 
 /*Project Thumbnail*/
-import portfolioV1 from "@/assets/images/projects/webporto.png"
+// import portfolioV1 from "@/assets/images/projects/webporto.png"
 import helpdeskItsk from "@/assets/images/projects/helpdeskitsk.png"
+import bumdes from "@/assets/images/projects/bumdesairbersih.png"
 
 export const services = [
   {
@@ -112,17 +113,17 @@ export const stack = [
 export const projects = [
   {
     id: 1,
-    name: "Web Portfolio V1",
-    thumbnail: portfolioV1,
-    link: "https://henryjrzai.web.id/",
-    github : "https://github.com/henryjrzai/web-porto",
-  },
-  {
-    id: 1,
     name: "Helpdesk ITSK",
     thumbnail: helpdeskItsk,
     link: "",
     github : "https://gitlab.com/henryjrzai/helpdesk-itsk",
+  },
+  {
+    id: 2,
+    name: "BUMDes Air Bersih Pegunungan Desa",
+    thumbnail: bumdes,
+    link: "https://bumdesairbersih.henryjrzai.web.id/",
+    github : "https://github.com/henryjrzai/BUMDes-Air-Pegunungan.git",
   }
 ]
 
