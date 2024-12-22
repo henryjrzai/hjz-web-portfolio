@@ -16,6 +16,8 @@ import firebase from "@/assets/images/stack/firebase.svg"
 // import portfolioV1 from "@/assets/images/projects/webporto.png"
 import helpdeskItsk from "@/assets/images/projects/helpdeskitsk.png"
 import bumdes from "@/assets/images/projects/bumdesairbersih.png"
+import eInventory from "@/assets/images/projects/einventory.png"
+import pelUang from "@/assets/images/projects/pelUang.png"
 
 export const services = [
   {
@@ -124,10 +126,36 @@ export const projects = [
     thumbnail: bumdes,
     link: "https://bumdesairbersih.henryjrzai.web.id/",
     github : "https://github.com/henryjrzai/BUMDes-Air-Pegunungan.git",
+  },
+  {
+    id: 3,
+    name: "E-Inventory UST",
+    thumbnail: eInventory,
+    link: "",
+    github : "",
+  },
+  {
+    id: 4,
+    name: "pelUang - Bangkit Academy",
+    thumbnail: pelUang,
+    link: "",
+    github : "https://github.com/henryjrzai/pelUang-BangkitAcademy-CapstoneProject",
   }
 ]
 
 export const experiences = [
+  {
+    id: 3,
+    title: "Backend Developer Intern",
+    company: "PT Cadadusa Acintya Dakara",
+    date: "Aug 2023 - Des 2023",
+    desc: `
+          - Designing and developing an admin dashboard using Laravel.
+          - Managing and integrating database systems, ensuring query efficiency and data security.
+          - Performing debugging, testing, and performance optimization to maintain application stability and speed.
+          `,
+    direction: "timeline-block-right"
+  },
   {
     id: 2,
     title: "Full Stack Web Developer | MSIB",
